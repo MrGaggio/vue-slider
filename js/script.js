@@ -13,6 +13,19 @@ Ricordiamo sempre che è necessario capire bene prima che dati dobbiamo andare a
 const app = new Vue({
     el: '#app',
     data: {
-    
+        //creare un array contenente le immagini
+        images: [
+            "./images/image1.jpg",
+            "./images/image2.jpg",
+            "./images/image3.jpg",
+            "./images/image4.jpg"
+        ],
+    },
+    methods:{
+        // creare una funzione che al click aggiunge +1 alla foto
+
+
+        // creare una funzione che al click sottrae -1 alla foto
     }
+
   })
