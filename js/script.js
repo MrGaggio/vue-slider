@@ -23,12 +23,17 @@ const app = new Vue({
         //funzione per andare avanti
         avanti: function(){
             this.counter += 1;
-                
+            if (this.counter > this.images.length -1) {
+                this.counter = 0
+            }
         },
 
         //funzione per tornare indietro
         indietro: function(){
             this.counter -= 1;
+            if (this.counter < 0 ) {
+                this.counter = this.images.length -1
+            }
         }
     }
   })
