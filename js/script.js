@@ -20,12 +20,23 @@ const app = new Vue({
             "./images/image3.jpg",
             "./images/image4.jpg"
         ],
+
+        counter: "",
     },
     methods:{
         // creare una funzione che al click aggiunge +1 alla foto
-
+        avanti: function () {
+            // console.log("prova");
+        },
 
         // creare una funzione che al click sottrae -1 alla foto
+        indietro: function(){
+            // console.log("prova");
+
+        }
+
+        // fare ciclo for per trovare l'indice che è uguale al counter se clicco sale l'indice
+
     }
 
   })
