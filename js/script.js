@@ -15,18 +15,20 @@ const app = new Vue({
           'image2.jpg',
           'image3.jpg',
           'image4.jpg',
-      ]
+      ],
+      counter: 0,
 
     },
     methods: {
         //funzione per andare avanti
         avanti: function(){
-
-        }
+            this.counter += 1;
+                
+        },
 
         //funzione per tornare indietro
         indietro: function(){
-            
+            this.counter -= 1;
         }
     }
   })
