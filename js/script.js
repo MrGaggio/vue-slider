@@ -34,6 +34,12 @@ const app = new Vue({
             if (this.counter < 0 ) {
                 this.counter = this.images.length -1
             }
-        }
+        },
+
+        // funzione al click del pallino
+
+        premiPallino: function(){
+            // console.log("prova");
+        } 
     }
   })
